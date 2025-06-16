@@ -1,0 +1,170 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.logo, .menu {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links a,
+nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #888;
+}
+
+.nav-links a.active,
+nav a.active,
+.nav-links a:hover,
+nav a:hover {
+  color: #1976d2;
+}
+
+/* Headings */
+h2, h1 {
+  color: #000;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Form Groups */
+.form-group {
+  margin: 12px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+  width: 50%;
+  padding: 6px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #1c96bb;
+}
+
+/* Rating Table */
+.rating-instruction {
+  font-weight:normal;
+  margin: 20px 0 10px;
+  font-size: 15px;
+}
+
+.rating-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.rating-table th,
+.rating-table td {
+  border: 1px solid #1c96bb;
+  padding: 8px;
+  text-align: center;
+  font-weight:normal;
+
+  
+
+}
+
+/* Submit Button */
+.submit-btn {
+  text-align: center;
+}
+
+button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Results Page */
+.results p {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px dashed #ddd;
+}
+
+.results span {
+  font-weight:lighter;
+}
+
+.no-data {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.personal-details-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.left-label {
+  width: 120px;
+  flex: 1;
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.center-fields {
+  flex-grow: 3;
+  text-align: left;
+  margin-left: 0;
+}
+
+.center-fields .form-group {
+  margin-bottom: 15px;
+}
+
+.center-fields label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+
+.center-fields input {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #418fc4;
+  border-radius: 5px;
+}
+
